@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Striped Table</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!-- Personal CSS -->
+  <link rel="stylesheet" href="src/style.css" media="screen">
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/6e15042094.js"></script>
+</head>
+
+<body class="container">
+  <h1 class="text-center">Striped Table</h1>
+  <hr>
+  <div class="row container-fluid">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Title</th>
+          <th>Title</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Odd</td>
+          <td>Odd</td>
+          <td>Odd</td>
+        </tr>
+        <tr>
+          <td>Even</td>
+          <td>Even</td>
+          <td>Even</td>
+        </tr>
+        <tr>
+          <td>Odd</td>
+          <td>Odd</td>
+          <td>Odd</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="row container-fluid">
+    <form>
+      <fieldset class="form-group">
+        <label for="evenBackground">Change Background Color of Evens</label>
+        <input type="text" class="form-control" id="colorEven" name="evenBackground" placeholder="type in a color">
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="oddBackground">Change Background Color of Odds</label>
+        <input type="text" class="form-control" id="colorOdd" name="oddBackground" placeholder="type in a color">
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="evenTextSize">Change Text Size for Evens</label>
+        <input type="text" class="form-control" id="evenText" name="evenTextSize" placeholder="type in a pixel size">
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="oddTextSize">Change Text Size for Odds</label>
+        <input type="text" class="form-control" id="oddText" name="oddTextSize" placeholder="type in a pixel size">
+      </fieldset>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <!-- Boostrap JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <!-- Personal Javascript -->
+  <script type="text/javascript" src="src/main.js"></script>
+</body>
+
+</html>
