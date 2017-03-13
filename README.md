@@ -1,4 +1,6 @@
-# Challenge 1 - Striped Table 
+# Challenge 1 - Striped Table
+
+[Completed Exercise](https://brandonb81.github.io/striped-table/)
 
 ## Task
 
